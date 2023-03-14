@@ -1,0 +1,17 @@
+Blog - Difference b/w HTTP/1.1 and HTTP/2
+
+1. HTTP/2 is introduced in 2015 and HTTP/1.1 is in 1997.
+
+2. HTTP/2 is much faster and reliable than HTTP/1.1.
+
+3. HTTP/2 is based on google's SPDY allows multiplexing and server push than HTTP/1.1.
+
+4. HTTP/2 have security features than previous version.
+
+5. HTTP/2 works on binary framing layer instead of textual that converts all message into binary format.
+
+6. HTTP/2 uses HPACK which is used to split data from header and compress it but HTTP/1.1 data by itself.
+
+7. HTTP/2 doesnot mandate the use of SSL certificate but in HTTP/1.1 is mandate.
+
+8. HTTP/2 penetrates on to the client side is more than 70% as most major browsers than in HTTP/1.1.
