@@ -15,4 +15,3 @@
       7. HTTP/2 doesnot mandate the use of SSL certificate but in HTTP/1.1 is mandate.
 
       8. HTTP/2 penetrates on to the client side is more than 70% as most major browsers than in HTTP/1.1.
-
