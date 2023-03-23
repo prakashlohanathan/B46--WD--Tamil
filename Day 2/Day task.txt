@@ -1,0 +1,26 @@
+Blog on difference between Window and Document Object:
+
+1.	Window is the execution context and global object for that context's JavaScript.
+2.	Document contains the DOM, initialized by parsing HTML.
+3.	The window object represents a window/tab containing a DOM document whereas document object is property of window object that points to
+     the DOM document loaded in that window. You can access a document object either using window.
+4.	Other Windows execution context enclosing and reference are window.parent  and window.top and always window.window refers to window.
+5.	Window properties are listed below
+     •	setTimeout() and setInterval() binding events handlers to a timer.
+     •	Location giving the current URL
+     •	Nagivator describing the browser software
+     •	History with methods back() and forward() giving the tab’s mutable history
+6.	Each window object has a document object to be rendered.
+7.	If we assign document object with a unique Id eg ., in the HTML snippet it get confused because HTML elements are added with global object.
+      <body>
+      <p id = “car”> This is the first paragraph. </p>
+      </body>
+The paragraph element can be referenced by any of the following:
+    •	Window.car or window[“car”]
+    •	Document.getElementById(“car”)
+    •	Document.querySelector(“#car”)
+8.	The window is the first object loaded in the browser and global JavaScript objects, functions and variables automatically.
+9.	Window object has majority of the properties like length, innerWidth, innerHeight, name.
+10.	HTML documents, content type served with the “text/HTML”, also implement the HTMLDocument interface, whereas XML and SVG 
+    documents implement the interface as XMLDocument.
+11.	Since the window object is the Global object, ergo, it is the end of all scope chains, you don’t have to explicitly specify it when accessing its properties 
