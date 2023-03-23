@@ -16,8 +16,12 @@
             xhr.onload = function () {
                 let response = JSON.parse(xhr.responseText);
                 for(let index=0; index<response.length; index++){
-                    console.log(response[index]);
-                  };
+                    console.log(response[index].name.common);
+                    console.log(response[index].subregion);
+                    console.log(response[index].region);
+                    console.log(response[index].population);
+                }   
+            };
 
             // send the request
             xhr.send();
