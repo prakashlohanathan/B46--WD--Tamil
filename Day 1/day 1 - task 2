@@ -5,17 +5,19 @@
 	3. These primitive data – type all stores single value depending on their types.
 	4. It is complex and contain any primitive data types.
 	5. Object is a reference data type.
-	6. Object may be defined as unordered collection of related data, of primitive or reference types in the form of “key-value”..	These Keys are functions or variables and are called properties and methods in the context of an object.	“A JavaScript object is a collection of named values having state and behaviour (properties and method)”.
+	6. Object may be defined as unordered collection of related data, of primitive or reference types in the form of “key-value”.	
+	7. These Keys are functions or variables and are called properties and methods in the context of an object.	
+	8. “A JavaScript object is a collection of named values having state and behaviour (properties and method)”.
             The following assigns a following Bike example for objects.
 
-   S.No	   Property	Property Value
-    1.	    Make	   TVS
-    2.	    Model	   APACHE
-    3.	    Colour	   Black
-    4.	    Fuel	   Petrol
-    5.	    Weight	   174 Kg
-    6.	    Mileage	   47 Kmpl
-    7.	    Rating 	   4.5
+             S.No	   Property	Property Value
+              1.	    Make	   TVS
+              2.	    Model	   APACHE
+              3.	    Colour	   Black
+              4.	    Fuel	   Petrol
+              5.	    Weight	   174 Kg
+              6.	    Mileage	   47 Kmpl
+              7.	    Rating 	   4.5
 
           Syntax to access property from an object
 
@@ -23,7 +25,7 @@
 
           So, conclusion and simple definition for JavaScript Properties is “Properties are the values associated with a JavaScript object”.
 
-        7. Object  methods in an object property containing a function definition.
+        9.. Object  methods in an object property containing a function definition.
 
-        8. Function (){return ignition. On} similar to start/stop/brake on and off.
-        9. So, Conclusion and simple definition for JavaScript object methods is “Methods are actions that can be performed on an object. 
+        10. Function (){return ignition. On} similar to start/stop/brake on and off.
+        11. So, Conclusion and simple definition for JavaScript object methods is “Methods are actions that can be performed on an object. 
