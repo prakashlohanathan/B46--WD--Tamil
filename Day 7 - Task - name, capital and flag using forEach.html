@@ -1,0 +1,31 @@
+<!-- Print the following details name, capital, flag using forEach function -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Task 7 -3</title>
+    </head>
+
+    <body>
+        <script>
+            // to create an object to XHR request
+            let xhr = new XMLHttpRequest();
+
+            // to set the request headers
+            xhr.open('GET', 'https://restcountries.com/v3.1/all', true);
+
+            // when the response received
+            xhr.onload = function () {
+                
+                var array = JSON.parse(this.response);
+                array.forEach((value)=>{
+                console.log(value.name,value.capital,value.flag);
+    })
+
+ };     
+   
+            // send the request
+            xhr.send();
+        </script>
+    </body>
+</html>
