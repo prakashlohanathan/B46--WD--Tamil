@@ -1,0 +1,31 @@
+     Blog about objects and its internal representation in JavaScript 
+
+	1. Objects is the most important data type and forms the building blocks for modern JavaScript.
+	2. The objects are different from JavaScript’s primitive data types (Number, String, Boolean, null, Undefined and symbol.
+	3. These primitive data – type all stores single value depending on their types.
+	4. It is complex and contain any primitive data types.
+	5. Object is a reference data type.
+	6. Object may be defined as unordered collection of related data, of primitive or reference types in the form of “key-value”.	
+	7. These Keys are functions or variables and are called properties and methods in the context of an object.	
+	8. “A JavaScript object is a collection of named values having state and behaviour (properties and method)”.
+            The following assigns a following Bike example for objects.
+
+             S.No	   Property	Property Value
+              1.	    Make	   TVS
+              2.	    Model	   APACHE
+              3.	    Colour	   Black
+              4.	    Fuel	   Petrol
+              5.	    Weight	   174 Kg
+              6.	    Mileage	   47 Kmpl
+              7.	    Rating 	   4.5
+
+          Syntax to access property from an object
+
+          ObjectName.property               //              Bike. Make.
+
+          So, conclusion and simple definition for JavaScript Properties is “Properties are the values associated with a JavaScript object”.
+
+        9.. Object  methods in an object property containing a function definition.
+
+        10. Function (){return ignition. On} similar to start/stop/brake on and off.
+        11. So, Conclusion and simple definition for JavaScript object methods is “Methods are actions that can be performed on an object. 

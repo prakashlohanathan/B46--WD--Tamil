@@ -1,3 +1,4 @@
+<<<<<<<< HEAD:Day 7/Day 7 - Task - Polpulation less 2L.html
 
 <!-- Get all the countries with population of less than 2 lacs using Filter function -->
 
@@ -32,3 +33,39 @@ var array = JSON.parse(this.response);
         </script>
     </body>
 </html>
+========
+
+<!-- Get all the countries with population of less than 2 lacs using Filter function -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Task 7 -1</title>
+    </head>
+
+    <body>
+        <script>
+            // to create an object to XHR request
+            let xhr = new XMLHttpRequest();
+
+            // to set the request headers
+            xhr.open('GET', 'https://restcountries.com/v3.1/all', true);
+
+            // when the response received
+            xhr.onload = function () {
+                
+
+var array = JSON.parse(this.response);
+
+    let Population=array.filter((value)=>{
+        return value.population<200000;
+    })
+    console.log(Population);
+ };     
+   
+            // send the request
+            xhr.send();
+        </script>
+    </body>
+</html>
+>>>>>>>> 16b205d0bcfc2a92e7733b35073b4177403672a2:Day 7 - Task - Polpulation less 2L.html

@@ -1,12 +1,8 @@
-
-<!-- Print the country which use US Dollars as currency. -->
-
-
 <!DOCTYPE html>
 <html>
 
 <head>
-    <title>Tasks-5</title>
+    <title>Tasks</title>
 </head>
 
 <body>
@@ -20,6 +16,8 @@
         // when the response received
         xhr.onload = function () {
             let array = JSON.parse(xhr.responseText);
+
+            // console.log();
 
             let currencies = array.filter((value) => value.currencies);
 
