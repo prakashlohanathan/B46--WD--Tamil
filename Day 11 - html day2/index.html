@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS DEMO</title>
+<link rel="stylesheet" type="text/css" href="./style.css">
+<!--  ./style/style.css  -->
+<style>
+/* Internal Style Sheet*/
+#secondList{
+    color:deeppink;
+}
+
+</style>
+</head>
+    <body>
+        <h3 style="color:rgb(91, 36, 143);">CSS Demo</h3>
+        <ul>
+            <li>Ways to use CSS</li>
+        <ul>
+            <li>External</li>
+            <li>Internal</li>
+            <li style="color:coral">Inline</li>
+        </ul>
+        <li>Selectors</li>
+        <ul id="secondList">
+            <li>tag selectors</li>
+            <li style="color:darkgreen"> Id selectors</li>
+            <li>Class Selectors</li>
+        </ul>
+    </ul>
+            <div id="firstDiv">
+                <h2>Class Selector</h2>
+                <p class ="blueColor"> class name taken by using dot.Class selectors are used to select styple to multiple elements</p>
+
+                <p class="blueColor bordered centerAlign"> Class selector have lesser priority than the id selectors</p>
+
+                <p class="centerAlign bordered">
+                    Id selector have higher priority than the tag seletor
+                </p>
+            
+            </div>
+
+            <h2>Blue Color</h2>
+            <h2>Yellow Color</h2>
+            <h2>Green Color</h2>
+            
+        <span class="toBlock">Span 1</span>
+        <span class="toBlock">Span 2</span>
+        <span>Span 3</span>
+</body>
+</html>

@@ -1,0 +1,35 @@
+
+<!-- Get all the countries from Asia continent /region using Filter function -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Task 7 -1</title>
+    </head>
+
+    <body>
+        <script>
+            // to create an object to XHR request
+            let xhr = new XMLHttpRequest();
+
+            // to set the request headers
+            xhr.open('GET', 'https://restcountries.com/v3.1/all', true);
+
+            // when the response received
+            xhr.onload = function () {
+                
+
+var array = JSON.parse(this.response);
+    const Asia = array.filter((value)=>{
+        if(value.region==='Asia'){
+            return value.name;
+        }
+    })
+    console.log(Asia);
+ };     
+   
+            // send the request
+            xhr.send();
+        </script>
+    </body>
+</html>

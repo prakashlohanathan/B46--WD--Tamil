@@ -1,7 +1,9 @@
+<!-- Print the following details name, capital, flag using forEach function -->
+
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Task 4</title>
+        <title>Task 7 -3</title>
     </head>
 
     <body>
@@ -14,12 +16,14 @@
 
             // when the response received
             xhr.onload = function () {
-                let response = JSON.parse(xhr.responseText);
-                for(let index=0; index<response.length; index++){
-                    console.log(response[index].flag);
-                }
-            };
+                
+                var array = JSON.parse(this.response);
+                array.forEach((value)=>{
+                console.log(value.name,value.capital,value.flag);
+    })
 
+ };     
+   
             // send the request
             xhr.send();
         </script>

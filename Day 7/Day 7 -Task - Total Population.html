@@ -1,7 +1,10 @@
+
+<!-- Print the total population of countries using reduce function -->
+
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Task 4</title>
+        <title>Task 7 -4</title>
     </head>
 
     <body>
@@ -14,15 +17,15 @@
 
             // when the response received
             xhr.onload = function () {
-                let response = JSON.parse(xhr.responseText);
-                for(let index=0; index<response.length; index++){
-                    console.log(response[index].name.common);
-                    console.log(response[index].subregion);
-                    console.log(response[index].region);
-                    console.log(response[index].population);
-                }   
-            };
+                
+var array = JSON.parse(this.response);
 
+let Population=array.reduce((Total,value)=>{
+        return Total+value.population;
+    },0)
+    console.log(Population);
+ };     
+   
             // send the request
             xhr.send();
         </script>
